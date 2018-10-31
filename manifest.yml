@@ -1,0 +1,4 @@
+---
+applications:
+- name: node-ms
+  random-route: true

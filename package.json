@@ -1,0 +1,23 @@
+{
+  "name": "node-microservice",
+  "version": "1.0.0",
+  "description": "An example node js microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgi-bozhinov/node-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgi-bozhinov/node-microservice/issues"
+  },
+  "homepage": "https://github.com/georgi-bozhinov/node-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
