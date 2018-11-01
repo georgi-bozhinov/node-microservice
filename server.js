@@ -2,7 +2,8 @@ const express = require('express');
 
 const app = express();
 
-app.get("/", (_, res) => {
+app.get("/", (req, res) => {
+  console.log(`I was called from host ${req.headers.host}.`);
   res.send("Node microservice called.");
 });
 
